@@ -6,6 +6,7 @@
 ScannerGUI::ScannerGUI(QWidget *parent) :
     QWidget(parent)
 {
+
     m_scan = new scannerNET;
     setupUi(this);
 }
